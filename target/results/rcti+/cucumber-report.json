@@ -1,0 +1,287 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-27T09:11:19.040Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22497000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Positive case sign up RCTI+ Succes",
+        "description": "",
+        "id": "signup-rcti+;positive-case-sign-up-rcti+-succes",
+        "after": [
+          {
+            "result": {
+              "duration": 883000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4829000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user access page \"https://dev-webd.rctiplus.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://dev-webd.rctiplus.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.HomeSteps.user_access_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1578000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user mengklik navigasi bar login Di Mainpage",
+            "match": {
+              "location": "steps.HomeSteps.userMengklikNavigasiBarLoginDiMainpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3058000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user mengkllik button login",
+            "match": {
+              "location": "steps.HomeSteps.userMengkllikButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1892000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user mengklik button register",
+            "match": {
+              "location": "steps.SignupSteps.userMengklikButtonRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 425000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input on username signup \"yohanaclimbong1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yohanaclimbong1@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnUsernameSignup(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 356000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input on password signup \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnPasswordSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input re-type password \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.SignupSteps.userInputReTypePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1966000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click button next",
+            "match": {
+              "location": "steps.SignupSteps.userClickButtonNext()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user input on fullname \"Yohana Limbong\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yohana Limbong\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user input on birth date \"1998-08-27\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1998-08-27\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnBirthDate(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1186000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click field fullname",
+            "match": {
+              "location": "steps.SignupSteps.userClickFieldFullname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1228000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click field gender",
+            "match": {
+              "location": "steps.SignupSteps.userClickFieldGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1184000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click gender",
+            "match": {
+              "location": "steps.SignupSteps.userClickGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2364000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click button next",
+            "match": {
+              "location": "steps.SignupSteps.userClickButtonNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5002000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "sleep waiting second",
+            "match": {
+              "location": "steps.SignupSteps.sleepWaitingSecond()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          },
+          {
+            "name": "@rcti"
+          }
+        ]
+      }
+    ],
+    "name": "Signup RCTI+",
+    "description": "",
+    "id": "signup-rcti+",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/signupValid.feature",
+    "tags": [
+      {
+        "name": "@Signup",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@rcti",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  }
+]
